@@ -35,11 +35,11 @@ function About() {
     <div className="About">
       <div className="stars-container" ref={starsContainerRef}></div>
       <div className='text_div'>
-
       <h2 className='about_h2'>About Me</h2>
       
   <h2 class="text-container">Eshboev Jasur</h2>
       </div>
+      <a className="button-86" href=" https://cuddlies748.github.io/my-react-app/">Back to home</a>
   
 </div>
    
