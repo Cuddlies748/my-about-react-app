@@ -3,9 +3,9 @@ import '../styles/projects.css'
 import Project from './Project'
 function Projects() {
   return (
-    <div className='Projects'>
-      <h2 className='project_h2'>Projects</h2>
-      <div className="rprojects_wrapper">
+    <div data-ignore-cursor="true" className='Projects'>
+      <h2 data-ignore-cursor="true" className='project_h2'>Projects</h2>
+      <div data-ignore-cursor="true" className="rprojects_wrapper">
             <Project h2={"project1"} imgSrc={"https://avatars.mds.yandex.net/i?id=370b93ce054e1d93c8bb5c54605c14d57b407400-5284124-images-thumbs&n=13"}
             href={"https://youtube.com"} cap={"see this project"}/>
             

@@ -32,14 +32,15 @@ function About() {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="About">
-      <div className="stars-container" ref={starsContainerRef}></div>
-      <div className='text_div'>
-      <h2 className='about_h2'>About Me</h2>
+    <div data-ignore-cursor="true" className="About">
+      <div data-ignore-cursor="true" className="stars-container" ref={starsContainerRef}></div>
+      <div data-ignore-cursor="true" className='text_div'>
+      <h2 data-ignore-cursor="true" className='about_h2'>About Me</h2>
       
-  <h2 class="text-container">Eshboev Jasur</h2>
+  <h2 data-ignore-cursor="true" class="text-container">Eshboev Jasur</h2>
       </div>
-      <a className="button-86" href=" https://cuddlies748.github.io/my-react-app/">Back to home</a>
+      <a className="button-86" href=" https://cuddlies748.github.io/my-react-app/">Back to home
+      </a>
   
 </div>
    
