@@ -169,7 +169,21 @@ font-style: normal;
       opacity: 0;
     }
   }
-
+@media(max-width:480px){
+  .text-container {
+    font-size: 90px;
+    margin-top: 10px;
+  }
+  .about_h2{
+     font-size: 90px;
+  }
+  .button-86{
+    pointer-events: none;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+  }
+}
 
  
 
