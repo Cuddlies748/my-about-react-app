@@ -9,6 +9,12 @@
     height: 800px;
    
 }
+@media (max-width:480px){
+    .photo{
+
+        height: 600px;
+    }
+}
 .About_Me{
     font-family: "Sigmar", serif;
     color: white;
@@ -31,6 +37,20 @@
         display: grid;
         grid-template-columns: repeat(1, 2fr);
         text-align: center;
+       
+       
+        
+    }
+    .About_Me{
+        position: absolute;
+        left: 25px;
+        
         align-items: center;
+        text-align: center;
+    }
+    .About_p{
+        font-size: 20px;
+        width: 340px;
+        margin-top: 200px;
     }
 }

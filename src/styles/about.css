@@ -178,10 +178,12 @@ font-style: normal;
      font-size: 90px;
   }
   .button-86{
-    pointer-events: none;
+    width: 60px;
+    height: 10px;
     position: absolute;
     top: 10px;
-    left: 330px;
+    font-size: 10px;
+    left: 215px;
   }
 }
 
